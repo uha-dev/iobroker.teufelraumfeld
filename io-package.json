@@ -1,0 +1,84 @@
+{
+	"common": {
+		"name": "teufelraumfeld",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Teufel Raumfeld",
+		"titleLang": {
+			"en": "Teufel Raumfeld",
+			"de": "Teufel Raumfeld",
+			"ru": "Тойфель Раумфельд",
+			"pt": "Teufel Raumfeld",
+			"nl": "Teufel Raumfeld",
+			"fr": "Teufel Raumfeld",
+			"it": "Teufel Raumfeld",
+			"es": "Teufel Raumfeld",
+			"pl": "Teufel Raumfeld",
+			"zh-cn": "Teufel Raumfeld"
+		},
+		"desc": {
+			"en": "steuern der Teufeld Raumfeld Streaming Komponenten",
+			"de": "steuern der Teufeld Raumfeld Streaming Komponenten",
+			"ru": "steuern der Teufeld Raumfeld Потоковый Компонентен",
+			"pt": "steuern der Teufeld Raumfeld Streaming de comentários",
+			"nl": "steuern der Teufeld Raumfeld Streaming Komponenten",
+			"fr": "steuern der Teufeld Raumfeld Streaming Komponenten",
+			"it": "steuern der Teufeld Raumfeld Streaming Komponenten",
+			"es": "Steuern der Teufeld Raumfeld Streaming Komponenten",
+			"pl": "Steuern der Teufeld Raumfeld Streaming Komponenten",
+			"zh-cn": "Steuern der Teufeld Raumfeld Streaming Komponenten"
+		},
+		"authors": [
+			"uha <uha@slow-mo.de>"
+		],
+		"keywords": [
+			"Teufel",
+			"Raumfeld",
+			"Streaming",
+			"Multiroom"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "teufelraumfeld.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/uha-dev/ioBroker.teufelraumfeld/master/admin/teufelraumfeld.png",
+		"readme": "https://github.com/uha-dev/ioBroker.teufelraumfeld/blob/master/README.md",
+		"loglevel": "info",
+		"restartAdapters": [
+			"vis"
+		],
+		"localLink": "%web_protocol%://%ip%:%web_port%/vis/edit.html",
+		"mode": "daemon",
+		"type": "multimedia",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=1.4.2"
+			},
+			"vis"
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
